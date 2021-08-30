@@ -1,0 +1,224 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1166097700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the valid Techfios page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_valid_Techfios_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5621121400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify Button exists",
+        "description": "",
+        "id": "check-the-background-change-funtionality;verify-button-exists",
+        "after": [
+          {
+            "result": {
+              "duration": 465103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 335334400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters add as \"AutomationTesting1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AutomationTesting1",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_add_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2090664200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the button1",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_the_button1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The background color will change to skyblue",
+            "match": {
+              "location": "LoginStepDefinition.the_background_color_will_change_to_skyblue()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 782538500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the valid Techfios page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_valid_Techfios_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2240587100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify Button exists",
+        "description": "",
+        "id": "check-the-background-change-funtionality;verify-button-exists",
+        "after": [
+          {
+            "result": {
+              "duration": 265293900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 240718100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters add as \"AutomationTesting\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AutomationTesting",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_add_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2079206300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on the button2",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_the_button2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The background color will change to white",
+            "match": {
+              "location": "LoginStepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Check the background change funtionality",
+    "description": "",
+    "id": "check-the-background-change-funtionality",
+    "keyword": "Feature",
+    "uri": "Background.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
